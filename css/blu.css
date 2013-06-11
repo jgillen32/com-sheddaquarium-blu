@@ -15,7 +15,7 @@ body {
 }
 .btn {
     display:inline-block;
-    width:150px;
+    width:145px;
     padding:.7em 0;
     font-weight:bold;
     text-decoration:none;
@@ -32,12 +32,11 @@ body {
     background: -ms-radial-gradient(center, ellipse cover,  #f0ec6b 0%,#bfd857 100%); /* IE10+ */
     background: radial-gradient(ellipse at center,  #f0ec6b 0%,#bfd857 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0ec6b', endColorstr='#bfd857',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
-    
+
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -khtml-border-radius: 8px;
     border-radius: 8px;
-
 }
 
 #header h1 {
@@ -50,11 +49,22 @@ body {
 	background-image:url(../images/Blu.png);
 	background-repeat:no-repeat;
 	text-indent:-9999px;
+} 
+#header h1, #header h2 {
+    margin:0 auto;
+    text-align:center;
+}
+#header h3 {
+    padding:0 1em;
+    text-transform:uppercase;
 }
 h1,h2,.title {
 	font-weight:bold;
 	padding:0;
 	margin:0;
+}
+#intro, #social, #attire, #btntickets {
+    padding:0 1em;
 }
 #premier div:first-child {
 	background: rgba(151, 218, 248, 0.3);
@@ -72,7 +82,7 @@ h1,h2,.title {
 #experience {
 	background:url(../images/t1_bg.png) -8px center no-repeat;
 }
-#experience div {
+#experience div, #experience .title {
     padding-left:90px;
 }
 #music div div {
