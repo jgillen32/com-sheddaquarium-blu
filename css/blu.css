@@ -40,6 +40,7 @@ h1,h2,.title {
 }
 #music div div {
     padding:1em 0;
+    background:none;
 }
 #champions span {
     display:block;
@@ -62,8 +63,10 @@ h1,h2,.title {
 	height:49px;
 }
 #music {
-    padding-bottom:120px;
     background:url(../images/t2_bg.png) right bottom no-repeat;
+}
+#music div {
+    padding-bottom:120px;
 }
 #tickets:before {
 	content: url(../images/t3.png);
