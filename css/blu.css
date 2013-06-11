@@ -50,6 +50,9 @@ h1,h2,.title {
 	display:block;
 	height:40px;
 }
+#experience {
+	background:url(../images/t1_bg.png) -8px center no-repeat;
+}
 #music:before {
 	content: url(../images/t2.png);
 	display:block;
