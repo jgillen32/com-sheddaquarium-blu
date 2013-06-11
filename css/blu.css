@@ -38,6 +38,9 @@ h1,h2,.title {
 	margin:0;
 	padding:1em;
 }
+#music div div {
+    padding:1em 0;
+}
 #experience:before {
 	content: url(../images/t1.png);
 	display:block;
@@ -77,4 +80,9 @@ h1,h2,.title {
 	content: url(../images/t7_b.png);
 	display:block;
 	height:25px;
+}
+
+#bands span {
+    display:block;
+    clear:left;
 }
