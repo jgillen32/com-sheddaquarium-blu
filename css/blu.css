@@ -42,6 +42,25 @@ h1,h2,.title {
     padding:1em 0;
     background:none;
 }
+#tickets:before {
+    content: url(../images/t3.png);
+	display:block;
+	height:28px;
+}
+#tickets {
+    background:url(../images/t3_bg.png) 0 center no-repeat;
+}
+#tickets div {
+    padding-left:102px;
+}
+#tickets ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#tickets li {
+    padding:1em 0;
+}
 #champions span {
     display:block;
     clear:left;
@@ -67,11 +86,6 @@ h1,h2,.title {
 }
 #music div {
     padding-bottom:120px;
-}
-#tickets:before {
-	content: url(../images/t3.png);
-	display:block;
-	height:28px;
 }
 #vip:before {
 	content: url(../images/t4.png);
