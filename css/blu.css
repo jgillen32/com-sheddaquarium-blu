@@ -80,6 +80,11 @@ h1,h2,.title,.stitle {
 #intro, #social, #attire, #btntickets {
     padding:0 1em;
 }
+#header img {
+    display:block;
+    margin:0 auto;
+    padding:15px 0;
+}
 #premier div:first-child {
 	background: rgba(151, 218, 248, 0.3);
 }
