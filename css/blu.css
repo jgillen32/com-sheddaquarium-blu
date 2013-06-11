@@ -86,7 +86,7 @@ h1,h2,.title {
 #vip:before {
     content: url(../images/t4.png);
 	display:block;
-	height:45px;
+	height:55px;
 }
 #vip {
     background:url(../images/t4_bg.png) right bottom no-repeat;
