@@ -41,6 +41,10 @@ h1,h2,.title {
 #music div div {
     padding:1em 0;
 }
+#champions span {
+    display:block;
+    clear:left;
+}
 #experience:before {
 	content: url(../images/t1.png);
 	display:block;
