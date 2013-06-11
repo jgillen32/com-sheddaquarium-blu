@@ -38,9 +38,31 @@ h1,h2,.title {
 	margin:0;
 	padding:1em;
 }
+#experience:before {
+    content: url(../images/t1.png);
+	display:block;
+	height:40px;
+}
+#experience {
+	background:url(../images/t1_bg.png) -8px center no-repeat;
+}
+#experience div {
+    padding-left:90px;
+}
 #music div div {
     padding:1em 0;
     background:none;
+}
+#music:before {
+    content: url(../images/t2.png);
+	display:block;
+	height:49px;
+}
+#music {
+    background:url(../images/t2_bg.png) right bottom no-repeat;
+}
+#music div {
+    padding-bottom:120px;
 }
 #tickets:before {
     content: url(../images/t3.png);
@@ -61,36 +83,20 @@ h1,h2,.title {
 #tickets li {
     padding:1em 0;
 }
+#vip:before {
+    content: url(../images/t4.png);
+	display:block;
+	height:45px;
+}
+#vip {
+    background:url(../images/t4_bg.png) right bottom no-repeat;
+}
+#vip div {
+    padding-bottom:99px;
+}
 #champions span {
     display:block;
     clear:left;
-}
-#experience:before {
-	content: url(../images/t1.png);
-	display:block;
-	height:40px;
-}
-#experience {
-	background:url(../images/t1_bg.png) -8px center no-repeat;
-}
-#experience div {
-    padding-left:90px;
-}
-#music:before {
-	content: url(../images/t2.png);
-	display:block;
-	height:49px;
-}
-#music {
-    background:url(../images/t2_bg.png) right bottom no-repeat;
-}
-#music div {
-    padding-bottom:120px;
-}
-#vip:before {
-	content: url(../images/t4.png);
-	display:block;
-	height:45px;
 }
 #photos:before {
 	content: url(../images/t5.png);
