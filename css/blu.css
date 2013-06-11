@@ -86,13 +86,13 @@ h1,h2,.title {
 #vip:before {
     content: url(../images/t4.png);
 	display:block;
-	height:55px;
+	height:45px;
 }
 #vip {
     background:url(../images/t4_bg.png) right bottom no-repeat;
 }
 #vip div {
-    padding-bottom:99px;
+    padding-bottom:54px;
 }
 #champions span {
     display:block;
@@ -101,7 +101,7 @@ h1,h2,.title {
 #photos:before {
 	content: url(../images/t5.png);
 	display:block;
-	height:52px;
+	height:55px;
 }
 #adifference:before {
 	content: url(../images/t6.png);
