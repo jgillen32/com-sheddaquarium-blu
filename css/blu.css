@@ -37,8 +37,20 @@ body {
     -webkit-border-radius: 8px;
     -khtml-border-radius: 8px;
     border-radius: 8px;
+    color:#005CAB;
 }
-
+a, #social {
+    color:#E26F61;
+    font-weight:bold;
+    text-decoration:none;
+}
+a[href^=tel] {
+    color:#fff;
+}
+p,li {
+    font-size:.85em;
+    line-height:1.5em;
+}
 #header h1 {
 	padding-top:0;
 	margin-top:0;
@@ -55,10 +67,12 @@ body {
     text-align:center;
 }
 #header h3 {
+    font-size:1em;
     padding:0 1em;
     text-transform:uppercase;
+    color:#F0EB6A;
 }
-h1,h2,.title {
+h1,h2,.title,.stitle {
 	font-weight:bold;
 	padding:0;
 	margin:0;
