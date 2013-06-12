@@ -244,8 +244,8 @@ h1,h2,.title,.stitle {
 #featuringtastings li, #board li {
     display:inline-block;
     padding-right:3px;
-    width:140px;
-    font-size:.7em;
+    width:155px;
+    font-size:.73em;
 }
 
 #benefactor,
@@ -257,5 +257,5 @@ h1,h2,.title,.stitle {
 #featuringmusic,
 #featuringtastings,
 #board {
-    padding:.5em;
+    padding:0 0 10px 5px;
 }
