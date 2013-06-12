@@ -1,8 +1,10 @@
 body {
+    font-family: 'Noto Sans', sans serif;
+    font-weight:400;
 	margin:0 auto;
 	width:330px;
 	padding:0;
-	background: #00aabd; /* Old browsers */
+    background: #00aabd; /* Old browsers */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYWFiZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE1JSIgc3RvcC1jb2xvcj0iIzAwYWFiZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iIzAwOGFiYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzE0MzI0OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNDMyNDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 	background: -moz-linear-gradient(top,  #00aabd 0%, #00aabd 15%, #008abb 30%, #143249 75%, #143249 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00aabd), color-stop(15%,#00aabd), color-stop(30%,#008abb), color-stop(75%,#143249), color-stop(100%,#143249)); /* Chrome,Safari4+ */
@@ -47,7 +49,7 @@ a, #social {
 a[href^=tel] {
     color:#fff;
 }
-p,li {
+p,li,#bands {
     font-size:.85em;
     line-height:1.5em;
 }
@@ -73,7 +75,8 @@ p,li {
     color:#F0EB6A;
 }
 h1,h2,.title,.stitle {
-	font-weight:bold;
+	font-weight:700;
+    font-size:1.1em;
 	padding:0;
 	margin:0;
 }
@@ -84,9 +87,6 @@ h1,h2,.title,.stitle {
     display:block;
     margin:0 auto;
     padding:15px 0;
-}
-#premier div:first-child {
-	background: rgba(151, 218, 248, 0.3);
 }
 #experience div:first-child, #music div, #tickets div, #vip div, #photos div:first-child, #adifference div, #bluisgreen div {
 	background: rgba(151, 218, 248, 0.3);
@@ -149,26 +149,71 @@ h1,h2,.title,.stitle {
 #vip div {
     padding-bottom:54px;
 }
-#champions span {
-    display:block;
-    clear:left;
-}
 #photos:before {
 	content: url(../images/t5.png);
 	display:block;
 	height:55px;
 }
 #premier {
-    background:url(../images/t5_bg.png) right bottom no-repeat;
+    padding:0px 1em 1.5em 1em;
+    background:rgba(151, 218, 248, 0.3) url(../images/t5_bg.png) right bottom no-repeat;
 }
-#premier div {
-    padding:0 0 71px 1em;
+#premier p {
+    padding-bottom:.5em;
 }
 #abbott, #boa, #coke, #toy, #walgreens {
-    display:inline;
-    padding:.25em;
+    margin:0;
+    padding:.125em;
 }
-
+.name {
+    	display:none;
+}
+.logos {
+    	background-image:url(../images/sm-logos.png);
+        background-repeat:no-repeat;
+        display: inline-block;
+}
+/* Premier sponsors */
+    #abbott {
+		background-position: 0 top;
+		width:94px;
+		height:31px;
+	}
+	#boa {
+		background-position: 0 -50px;
+		width:87px;
+		height:31px;
+	}
+	#coke {
+		background-position: 0 -100px;
+		width:75px;
+		height:31px;
+	}
+	#toy {
+		background-position: 0 -150px;
+		width:103px;
+		height:31px;
+	}
+	#walgreens {
+		background-position: 0 -200px;
+		width:92px;
+		height:31px;
+	}
+    #chicago {
+        display:block;
+        background-position: 0 -250px;
+		width:84px;
+		height:25px;
+    }
+    #martincodax {
+        display:block;
+    	background-position: 0 -300px;
+		width:120px;
+		height:25px;        
+    }
+#champions p {
+    padding:0 0 .2em 0;
+}
 #adifference:before {
 	content: url(../images/t6.png);
 	display:block;
@@ -188,4 +233,15 @@ h1,h2,.title,.stitle {
 #bands span {
     display:block;
     clear:left;
+}
+#benefactor,
+#champions,
+#sponsors,
+#partner,
+#patron,
+#supporter,
+#featuringmusic,
+#featuringtastings,
+#board {
+    padding:1em;
 }
