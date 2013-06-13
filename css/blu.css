@@ -57,6 +57,9 @@ ul {
     list-style:none;
     padding: 0;
 }
+.cost {
+    color:#F0EC6B;
+}
 
 #header h1 {
 	padding-top:0;
