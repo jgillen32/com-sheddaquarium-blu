@@ -114,9 +114,9 @@ h1,h2,.title,.stitle {
 }
 #experience .title {
     display:block;
-    width:250px;
+    width:330px;
     height:40px;
-    background: url(../images/sm-logos.png) 0 0 no-repeat;
+    background: url(../images/titles.png) 0 0 no-repeat;
 }
 
 #music div div {
@@ -133,6 +133,12 @@ h1,h2,.title,.stitle {
 }
 #music div {
     padding-bottom:120px;
+}
+#music .title {    
+    display:block;
+    width:330px;
+    height:40px;
+    background: url(../images/titles.png) 0 -50px no-repeat;
 }
 #tickets:before {
     content: url(../images/t3.png);
@@ -153,6 +159,12 @@ h1,h2,.title,.stitle {
 #tickets li {
     padding:1em 0;
 }
+#tickets .title {    
+    display:block;
+    width:330px;
+    height:40px;
+    background: url(../images/titles.png) 0 -100px no-repeat;
+}
 #vip:before {
     content: url(../images/t4.png);
 	display:block;
@@ -164,10 +176,22 @@ h1,h2,.title,.stitle {
 #vip div {
     padding-bottom:54px;
 }
+#vip .title {    
+    display:block;
+    width:330px;
+    height:40px;
+    background: url(../images/titles.png) 0 -150px no-repeat;
+}
 #photos:before {
 	content: url(../images/t5.png);
 	display:block;
 	height:55px;
+}
+#photos .title {    
+    display:block;
+    width:330px;
+    height:40px;
+    background: url(../images/titles.png) 0 -200px no-repeat;
 }
 #premier {
     padding:0px 1em 1.5em 1em;
@@ -240,6 +264,12 @@ h1,h2,.title,.stitle {
 	display:block;
 	height:48px;
 }
+#adifference .title {    
+    display:block;
+    width:330px;
+    height:40px;
+    background: url(../images/titles.png) 0 -250px no-repeat;
+}
 #bluisgreen:before {
 	content: url(../images/t7.png);
 	display:block;
@@ -249,6 +279,12 @@ h1,h2,.title,.stitle {
 	content: url(../images/t7_b.png);
 	display:block;
 	height:25px;
+}
+#bluisgreen .title {    
+    display:block;
+    width:330px;
+    height:40px;
+    background: url(../images/titles.png) 0 -300px no-repeat;
 }
 #bands span {
     display:block;
