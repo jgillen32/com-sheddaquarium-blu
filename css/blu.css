@@ -41,8 +41,12 @@ body {
     border-radius: 8px;
     color:#005CAB;
 }
+.mbreak {
+    display:block;
+    clear:left;
+}
 a, #social {
-    color:#E26F61;
+    color:#CC9933;
     font-weight:bold;
     text-decoration:none;
 }
@@ -56,11 +60,23 @@ p,li,#bands {
 ul {
     list-style:none;
     padding: 0;
+    margin:0;
 }
-.cost {
+.cost, .date, .title, .stitle {
     color:#F0EC6B;
 }
-
+.date {
+    line-height:0;
+    padding-bottom:0;
+}
+.stitle, .body {
+    padding:0;
+    margin:0;
+}
+.body {
+    padding-bottom:1.5em;
+    font-size:.8em;
+}
 #header h1 {
 	padding-top:0;
 	margin-top:0;
@@ -82,7 +98,7 @@ ul {
     text-transform:uppercase;
     color:#F0EB6A;
 }
-h1,h2,.title,.stitle {
+h1, h2, .title, .stitle {
 	font-weight:700;
     font-size:1.1em;
 	padding:0;
@@ -96,10 +112,10 @@ h1,h2,.title,.stitle {
     margin:0 auto;
     padding:15px 0;
 }
-#experience div:first-child, #music div, #tickets div, #vip div, #photos div:first-child, #adifference div, #bluisgreen div {
+#experience div:first-child, #music div:first-child, #tickets div:first-child, #vip div:first-child, #photos div:first-child, #adifference div:first-child, #bluisgreen div:first-child {
 	background: rgba(151, 218, 248, 0.3);
 	margin:0;
-	padding:1em;
+	padding:1em 10px;
 }
 #experience:before {
     content: url(../images/t1.png);
@@ -108,20 +124,24 @@ h1,h2,.title,.stitle {
 }
 #experience {
 	background:url(../images/t1_bg.png) -8px center no-repeat;
+    //background:url(../images/t1_bg.png) -8px 28px no-repeat;
+    background-clip:content-box;
 }
-#experience div {
+#experience div div {
+    //display:none;
     padding-left:90px;
 }
 #experience .title {
     display:block;
     width:330px;
     height:40px;
-    background: url(../images/titles.png) 0 0 no-repeat;
+    background: url(../images/titles.png) 90px 0 no-repeat;
 }
 
 #music div div {
     padding:1em 0;
     background:none;
+    //display:none;
 }
 #music:before {
     content: url(../images/t2.png);
@@ -151,6 +171,9 @@ h1,h2,.title,.stitle {
 #tickets div {
     padding-left:102px;
 }
+#tickets div div {
+   //display:none;
+}
 #tickets ul {
     margin:0;
     padding:0;
@@ -163,7 +186,7 @@ h1,h2,.title,.stitle {
     display:block;
     width:330px;
     height:40px;
-    background: url(../images/titles.png) 0 -100px no-repeat;
+    background: url(../images/titles.png) 95px -100px no-repeat;
 }
 #vip:before {
     content: url(../images/t4.png);
@@ -182,6 +205,9 @@ h1,h2,.title,.stitle {
     height:40px;
     background: url(../images/titles.png) 0 -150px no-repeat;
 }
+#vip div div {
+    //display:none;
+}
 #photos:before {
 	content: url(../images/t5.png);
 	display:block;
@@ -192,6 +218,10 @@ h1,h2,.title,.stitle {
     width:330px;
     height:40px;
     background: url(../images/titles.png) 0 -200px no-repeat;
+}
+#photos div div {
+    padding:0;
+    margin:0;
 }
 #premier {
     padding:0px 1em 1.5em 1em;
@@ -270,6 +300,9 @@ h1,h2,.title,.stitle {
     height:40px;
     background: url(../images/titles.png) 0 -250px no-repeat;
 }
+#adifference div div {
+    //display:none;
+}
 #bluisgreen:before {
 	content: url(../images/t7.png);
 	display:block;
@@ -286,17 +319,28 @@ h1,h2,.title,.stitle {
     height:40px;
     background: url(../images/titles.png) 0 -300px no-repeat;
 }
+#bluisgreen div div {
+    //display:none;
+}
 #bands span {
     display:block;
     clear:left;
 }
 #featuringtastings li, #board li {
-    display:inline-block;
-    padding-right:3px;
-    width:155px;
+    display:inline;
+    padding: 0 2px;
     font-size:.73em;
 }
-
+#featuringtastings li {    
+    width:155px;
+    display:inline-block;
+}
+#board li:after {
+    content:" | ";
+}
+#board li:last-child:after {
+    content:'';
+}
 #benefactor,
 #champions,
 #sponsors,
@@ -306,5 +350,5 @@ h1,h2,.title,.stitle {
 #featuringmusic,
 #featuringtastings,
 #board {
-    padding:0 0 10px 5px;
+    padding:0 0 10px 10px;
 }
