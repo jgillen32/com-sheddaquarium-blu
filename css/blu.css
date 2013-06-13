@@ -225,6 +225,9 @@ h1,h2,.title,.stitle {
     line-height:1em;
     padding-bottom:1em;
 }
+.official {
+    font-size:.7em;
+}
 #adifference:before {
 	content: url(../images/t6.png);
 	display:block;
