@@ -109,9 +109,16 @@ h1,h2,.title,.stitle {
 #experience {
 	background:url(../images/t1_bg.png) -8px center no-repeat;
 }
-#experience div, #experience .title {
+#experience div {
     padding-left:90px;
 }
+#experience .title {
+    display:block;
+    width:250px;
+    height:40px;
+    background: url(../images/sm-logos.png) 0 0 no-repeat;
+}
+
 #music div div {
     padding:1em 0;
     background:none;
