@@ -237,6 +237,9 @@ h1, h2, .title, .stitle {
 .name {
     	display:none;
 }
+#social .name {
+    display:inline;
+}
 .logos {
     	background-image:url(../images/sm-logos.png);
         background-repeat:no-repeat;
