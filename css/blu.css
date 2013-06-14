@@ -104,6 +104,9 @@ h1, h2, .title, .stitle {
 	padding:0;
 	margin:0;
 }
+#experience .stitle {
+    font-size:.9em;
+}
 #intro, #social, #attire, #btntickets {
     padding:0 1em;
 }
@@ -237,13 +240,18 @@ h1, h2, .title, .stitle {
 .name {
     	display:none;
 }
-#social .name {
-    display:inline;
-}
 .logos {
     	background-image:url(../images/sm-logos.png);
         background-repeat:no-repeat;
         display: inline-block;
+}
+#social .logos {
+    background-image:url(../images/social_logos.png);
+    width:18px;
+    height:17px;
+}
+#twitter {
+    background-position: -25px top;  
 }
 /* Premier sponsors */
     #abbott {
@@ -324,6 +332,11 @@ h1, h2, .title, .stitle {
 }
 #bluisgreen div div {
     //display:none;
+}
+#bands, #bands div:first-child {
+    background:none;
+    padding:0;
+    margin:0;
 }
 #bands span {
     display:block;
