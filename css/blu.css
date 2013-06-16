@@ -1,5 +1,5 @@
 body {
-    font-family: 'Noto Sans', sans serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight:400;
 	margin:0 auto;
 	width:330px;
@@ -103,6 +103,9 @@ h1, h2, .title, .stitle {
     font-size:1.1em;
 	padding:0;
 	margin:0;
+}
+#header img {
+    content:url(../images/sm_shedd.png);
 }
 #experience .stitle {
     font-size:.9em;
@@ -380,10 +383,18 @@ h1, h2, .title, .stitle {
     	background: url(../images/bg.png) top center no-repeat, -o-linear-gradient(top,  #00aabd 0%,#00aabd 15%,#008abb 30%,#143249 75%,#143249 100%); /* Opera 11.10+ */
     	background: url(../images/bg.png) top center no-repeat, -ms-linear-gradient(top,  #00aabd 0%,#00aabd 15%,#008abb 30%,#143249 75%,#143249 100%); /* IE10+ */
     	background: url(../images/bg.png) top center no-repeat, linear-gradient(to bottom,  #00aabd 0%,#00aabd 15%,#008abb 30%,#143249 75%,#143249 100%); /* W3C */
-
+        font-size:1.2em;
     }
     #header {
         text-align:center;
+    }
+    #header h1 {
+        width: 630px;
+    	height: 321px;
+        background:url(../images/m_blu_logo.png);
+    }
+    #header img {
+        content:url(../images/sm_shedd.png);
     }
     .mbreak {
         display:inline;
@@ -407,6 +418,21 @@ h1, h2, .title, .stitle {
         vertical-align:top;
         clear:none;
         float:right;
+    }
+    #social .logos {
+        width:25px;
+        height:27px;
+        margin-right:5px;
+    }
+    #fb {
+        background-position: -52px top;
+    }
+    #twitter {
+        background-position: -88px top;  
+    }
+    
+    #btntickets a {
+        margin:.5em;
     }
     #experience {
         clear:both;
