@@ -104,8 +104,13 @@ h1, h2, .title, .stitle {
 	padding:0;
 	margin:0;
 }
-#header img {
-    content:url(../images/sm_shedd.png);
+#sheddlogo {
+    background:url(../images/sm_shedd.png);
+    margin:0 auto;
+    display:block;
+    width:73px;
+    height:63px;
+    margin-bottom:15px;
 }
 #experience .stitle {
     font-size:.9em;
@@ -393,16 +398,21 @@ h1, h2, .title, .stitle {
     	height: 321px;
         background:url(../images/m_blu_logo.png);
     }
-    #header img {
-        content:url(../images/sm_shedd.png);
-    }
+    #sheddlogo {
+    background:url(../images/m_shedd.png);
+    margin:0 auto;
+    display:block;
+    width:183px;
+    height:152px;
+    margin-bottom:25px;
+}
     .mbreak {
         display:inline;
         clear:none;
     }
     #intro {
         width:400px;
-        height:300px;
+        height:350px;
         display:table-cell;
         position:relative;
         padding:0;
@@ -410,6 +420,10 @@ h1, h2, .title, .stitle {
         vertical-align:top;
         clear:none;
         float:left;
+    }
+    #intro p {
+        line-height:2em;
+        padding:0 1em;
     }
     #social,#attire,#btntickets {
         width:200px;
