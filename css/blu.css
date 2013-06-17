@@ -388,7 +388,7 @@ h1, h2, .title, .stitle {
     	background: url(../images/bg.png) top center no-repeat, -o-linear-gradient(top,  #00aabd 0%,#00aabd 15%,#008abb 30%,#143249 75%,#143249 100%); /* Opera 11.10+ */
     	background: url(../images/bg.png) top center no-repeat, -ms-linear-gradient(top,  #00aabd 0%,#00aabd 15%,#008abb 30%,#143249 75%,#143249 100%); /* IE10+ */
     	background: url(../images/bg.png) top center no-repeat, linear-gradient(to bottom,  #00aabd 0%,#00aabd 15%,#008abb 30%,#143249 75%,#143249 100%); /* W3C */
-        font-size:1.2em;
+        
     }
     #header {
         text-align:center;
@@ -453,14 +453,35 @@ h1, h2, .title, .stitle {
     }
     #experience, #experience div:first-child, #experience div div,
     #music, #music div:first-child,
+    #bands, #bands div:first-child,
     #tickets, #tickets div:first-child, #tickets div div,
     #vip, #vip div:first-child,
     #photos, #photos div:first-child,
     #adifference, #adifference div:first-child,
     #bluisgreen, #bluisgreen div:first-child {
         background: none;
-        padding:1em;
+        padding:0;
         margin:0;
+        position:relative;
+    }
+    #experience {
+        background:url(../images/t-experience.png);
+        width:630px;
+        height:685px;
+        margin:0;
+        padding:0;
+    } 
+    #experience .title {
+        display:none;
+    }
+    #experience div div:first-of-type {
+        padding-top: 140px;
+        padding-left:360px;
+    }
+    #experience div div:last-of-type {
+        padding-top: 100px;
+        padding-left:120px;
+        width:330px;
     }
     #experience:before,
     #music:before,
@@ -471,7 +492,61 @@ h1, h2, .title, .stitle {
     #bluisgreen:before, #bluisgreen:after {
         content:'';        
     }
-    
+    #music {
+        background:url(../images/t-music.png) no-repeat;
+        width:630px;
+        margin:0;
+        padding-left:294px;
+        padding-top:115px;
+        width:300px;   
+    }
+    #music .title {
+        display:none;
+    }
+    #tickets {
+        background:url(../images/t-tickets.png) no-repeat;
+        width:630px;
+        margin:0;
+        padding-top:60px;
+        padding-left:135px;
+        width:450px;
+    }
+    #tickets .title {
+        display:none;
+    }
+    #tickets:after {
+        content:url(../images/t-tickets.a.png);
+        display:block;
+        width:630px;
+        height:345px;
+        padding:0;
+        margin:-50px 0 0 -135px;
+    }
+    #vip {
+        background:url(../images/t-vip.png) no-repeat;
+        width:630px;
+        margin:0;
+        padding:0;
+    }
+    #vip div {
+        padding-left:155px;
+        width:230px;
+        }
+    #vip .title {
+        display:none;
+    }
+    #premier {
+        background:none;
+    }
+    #photos {
+        background:url(../images/t-photos.png) no-repeat;
+        width:630px;
+        margin:0;
+        padding:0;
+    }
+    #photos .title {
+        display:none;
+    }
     #featuringtastings li, #board li {    
         width:195px;
         display:inline-block;
