@@ -452,7 +452,7 @@ h1, h2, .title, .stitle {
         clear:both;
     }
     #experience, #experience div:first-child, #experience div div,
-    #music, #music div:first-child,
+    #music, #music div, #music div div, #music div:first-child,
     #bands, #bands div:first-child,
     #tickets, #tickets div:first-child, #tickets div div,
     #vip, #vip div:first-child,
@@ -492,13 +492,13 @@ h1, h2, .title, .stitle {
     #bluisgreen:before, #bluisgreen:after {
         content:'';        
     }
-    #music {
-        background:url(../images/t-music.png) no-repeat;
-        width:630px;
-        margin:0;
-        padding-left:294px;
-        padding-top:115px;
-        width:300px;   
+    #music:before {
+        content:url(../images/t-music.png);
+    }
+    #music div div:first-of-type, #bands div div {
+        background:url(../images/bandsBG.png) 5px top repeat-y;
+        padding-left:300px;
+        border:1px solid #000;
     }
     #music .title {
         display:none;
