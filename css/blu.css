@@ -137,7 +137,7 @@ h1, h2, .title, .stitle {
 	background:url(../images/t1_bg.png) -8px center no-repeat;
     background-clip:content-box;
 }
-#experience .fld {
+#experience.fld {
     background:url(../images/t1_bg.png) -8px 28px no-repeat;
 }
 #experience div div {
@@ -180,6 +180,9 @@ h1, h2, .title, .stitle {
 }
 #tickets {
     background:url(../images/t3_bg.png) 0 center no-repeat;
+}
+#tickets.fld {
+    background-position: -25px -55px;
 }
 #tickets div {
     padding-left:102px;
