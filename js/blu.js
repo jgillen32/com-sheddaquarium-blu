@@ -8,26 +8,32 @@ $(function() {
     {
 		function toggle_section( sel )
 		{
-		    $( sel ).children().each( function() {
+		    $( sel + ' div' ).children().each( function() {
 				if( $(this).attr( 'class' ) !== 'title' ) {
 					$(this).toggle();
 				}
 			});
+			if( $( sel ).hasClass('fld') || $( sel ).hasClass('ufld') ) {
+			    $( sel ).toggleClass( 'fld' );
+			    $( sel ).toggleClass( 'ufld' );
+   			}
+			else
+			    $( sel ).addClass('fld' );
 		}
 
-		toggle_section( '#experience div' );
-		toggle_section( '#music div' );
-		toggle_section( '#tickets div' );
-    	toggle_section( '#vip div' );
-    	toggle_section( '#adifference div' );
-    	toggle_section( '#bluisgreen div' );
+		toggle_section( '#experience' );
+		toggle_section( '#music' );
+		toggle_section( '#tickets' );
+    	toggle_section( '#vip' );
+    	toggle_section( '#adifference' );
+    	toggle_section( '#bluisgreen' );
 		
-		$( '#experience div' ).click(function(){toggle_section( '#experience div' )});
-		$( '#music div' ).click(function(){toggle_section( '#music div' )});
-		$( '#tickets div' ).click(function(){toggle_section( '#tickets div' )});
-    	$( '#vip div' ).click(function(){toggle_section( '#vip div' )});
-    	$( '#adifference div' ).click(function(){toggle_section( '#adifference div' )});
-    	$( '#bluisgreen div' ).click(function(){toggle_section( '#bluisgreen div' )});
+		$( '#experience' ).click(function(){toggle_section( '#experience' )});
+		$( '#music' ).click(function(){toggle_section( '#music' )});
+		$( '#tickets' ).click(function(){toggle_section( '#tickets' )});
+    	$( '#vip' ).click(function(){toggle_section( '#vip ' )});
+    	$( '#adifference' ).click(function(){toggle_section( '#adifference' )});
+    	$( '#bluisgreen' ).click(function(){toggle_section( '#bluisgreen' )});
  
 	}
 });
