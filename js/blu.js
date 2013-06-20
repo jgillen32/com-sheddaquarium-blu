@@ -32,3 +32,11 @@ $(function() {
 	}
 });
 
+$(function () {
+
+      $("#photo").responsiveSlides({
+        maxwidth: 800,
+        speed: 800
+      });
+
+    });

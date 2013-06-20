@@ -135,8 +135,10 @@ h1, h2, .title, .stitle {
 }
 #experience {
 	background:url(../images/t1_bg.png) -8px center no-repeat;
-    //background:url(../images/t1_bg.png) -8px 28px no-repeat;
     background-clip:content-box;
+}
+#experience .closed {
+    background:url(../images/t1_bg.png) -8px 28px no-repeat;
 }
 #experience div div {
     //display:none;
