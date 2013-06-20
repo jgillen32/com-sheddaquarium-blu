@@ -521,6 +521,7 @@ h1, h2, .title, .stitle {
         padding-top:60px;
         padding-left:135px;
         width:450px;
+        background-clip:border-box;
     }
     #tickets .title {
         display:none;
