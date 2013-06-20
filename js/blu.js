@@ -34,7 +34,7 @@ $(function() {
 
 $(function () {
 
-      $("#photo").responsiveSlides({
+      $("#slider").responsiveSlides({
         maxwidth: 800,
         speed: 800
       });
