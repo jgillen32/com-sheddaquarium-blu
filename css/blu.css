@@ -552,6 +552,10 @@ h1, h2, .title, .stitle {
     #vip .title {
         display:none;
     }
+    #slider {
+        width:400px;
+        margin:0 auto;
+    }
     #premier {
         background:none;
     }
