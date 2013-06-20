@@ -479,7 +479,7 @@ h1, h2, .title, .stitle {
         padding-left:360px;
     }
     #experience div div:last-of-type {
-        padding-top: 100px;
+        padding-top: 145px;
         padding-left:120px;
         width:330px;
     }
@@ -495,10 +495,21 @@ h1, h2, .title, .stitle {
     #music:before {
         content:url(../images/t-music.png);
     }
-    #music div div:first-of-type, #bands div div {
+    #music p {
+        padding-top:130px;
+    }
+    .w200 {
+        width:200px;
+    }
+    #music div div:first-of-type {
+        padding-top:10px;
+        padding-left:300px;
+    }
+    #bands div, div #bands div, #bands div:first-of-type {
+        padding-top:20px;
         background:url(../images/bandsBG.png) 5px top repeat-y;
         padding-left:300px;
-        border:1px solid #000;
+        width:300px;
     }
     #music .title {
         display:none;
@@ -521,6 +532,9 @@ h1, h2, .title, .stitle {
         height:345px;
         padding:0;
         margin:-50px 0 0 -135px;
+    }
+    #tickets ul {
+        padding-top: 20px;
     }
     #vip {
         background:url(../images/t-vip.png) no-repeat;
