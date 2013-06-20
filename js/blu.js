@@ -28,12 +28,12 @@ $(function() {
     	toggle_section( '#adifference' );
     	toggle_section( '#bluisgreen' );
 		
-		$( '#experience' ).click(function(){toggle_section( '#experience' )});
-		$( '#music' ).click(function(){toggle_section( '#music' )});
-		$( '#tickets' ).click(function(){toggle_section( '#tickets' )});
-    	$( '#vip' ).click(function(){toggle_section( '#vip ' )});
-    	$( '#adifference' ).click(function(){toggle_section( '#adifference' )});
-    	$( '#bluisgreen' ).click(function(){toggle_section( '#bluisgreen' )});
+		$( '#experience > div > p.title' ).click(function(){toggle_section( '#experience' )});
+		$( '#music > div > p.title' ).click(function(){toggle_section( '#music' )});
+		$( '#tickets > div > p.title' ).click(function(){toggle_section( '#tickets' )});
+    	$( '#vip > div > p.title' ).click(function(){toggle_section( '#vip ' )});
+    	$( '#adifference > div > p.title' ).click(function(){toggle_section( '#adifference' )});
+    	$( '#bluisgreen > div > p.title' ).click(function(){toggle_section( '#bluisgreen' )});
  
 	}
 });
